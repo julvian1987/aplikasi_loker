@@ -10,19 +10,6 @@ class homescreen extends StatefulWidget {
   State<homescreen> createState() => _homescreenState();
 }
 
-void main() {
-  runApp(
-    new MaterialApp(
-      home: new Home(),
-      routes: <String, WidgetBuilder>{
-        '/page1': (BuildContext context) => new Home(),
-        //'/page2' : (BuildContext context) => new MyProfil(),
-        //'/page3' : (BuildContext context) => new Tampilanmobil(),
-      },
-    ),
-  );
-}
-
 class _homescreenState extends State<homescreen> {
   String teks = '';
   @override
