@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:loginscreen.dart';
+import 'loginscreen.dart';
 
 class signup extends StatefulWidget {
   const signup({Key? key}) : super(key: key);

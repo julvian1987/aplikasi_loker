@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:aplikasilowonganpekerjaan/homescreen.dart';
-import 'package:aplikasilowonganpekerjaan/loginscreen.dart';
+import 'homescreen.dart';
+import 'loginscreen.dart';
 
 class splashcreen extends StatefulWidget {
   const splashcreen({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:homescreen.dart';
-import 'package:signup.dart';
+import 'homescreen.dart';
+import 'signup.dart';
 
 class loginscreen extends StatefulWidget {
   const loginscreen({Key? key}) : super(key: key);

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:aplikasilowonganpekerjaan/loginscreen.dart';
+import 'loginscreen.dart';
 //import 'package:aplikasilowonganpekerjaan/signup.dart';
-import 'package:aplikasilowonganpekerjaan/splashscreen.dart';
+import 'splashscreen.dart';
 
 void main() async {
   await Hive.initFlutter();
