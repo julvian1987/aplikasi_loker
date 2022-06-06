@@ -3,6 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'loginscreen.dart';
 
+class homescreen extends StatefulWidget {
+  const homescreen({Key? key}) : super(key: key);
+
+  @override
+  State<homescreen> createState() => _homescreenState();
+}
+
 void main() {
   runApp(
     new MaterialApp(
@@ -16,7 +23,7 @@ void main() {
   );
 }
 
-class Home extends StatelessWidget {
+class _homescreenState extends State<homescreen> {
   String teks = '';
   @override
   Widget build(BuildContext context) {
