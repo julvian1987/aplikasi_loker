@@ -16,7 +16,7 @@ class _homescreenState extends State<homescreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: new AppBar(
-        title: new Text('GoTrav'),
+        title: new Text('Jobsplace'),
         centerTitle: true,
         backgroundColor: Colors.blue,
         actions: <Widget>[
