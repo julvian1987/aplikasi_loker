@@ -42,7 +42,7 @@ class _splashcreenState extends State<splashcreen> {
     return Scaffold(
       body: Center(
         child: Image.asset(
-          'images/logo-udb.png',
+          'images/icon.png',
           width: 300,
         ),
       ),

@@ -11,8 +11,8 @@ class loginscreen extends StatefulWidget {
 }
 
 class _loginscreenState extends State<loginscreen> {
-  String useruts = 'user_uts';
-  String passuts = 'pass_uts';
+  String useruts = 'admin';
+  String passuts = 'admin';
 
   TextEditingController userNameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
@@ -29,14 +29,14 @@ class _loginscreenState extends State<loginscreen> {
                 Padding(
                   padding: const EdgeInsets.only(top: 40),
                   child: Image.asset(
-                    'images/login.png',
+                    'images/job2.png',
                     height: 200,
                   ),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(top: 10),
                   child: Text(
-                    'Selamat Datang',
+                    'Selamat Datang Jobseeker',
                     style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                   ),
                 ),

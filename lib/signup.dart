@@ -43,7 +43,7 @@ class _signupState extends State<signup> {
                 Padding(
                   padding: const EdgeInsets.only(top: 10),
                   child: Text(
-                    'Mari Kita Mulai!',
+                    'Mari Daftar ke Jobsplaces',
                     style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                   ),
                 ),
