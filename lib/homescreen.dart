@@ -32,7 +32,7 @@ class _homescreenState extends State<homescreen> {
           children: <Widget>[
             new Container(
               child: Image.asset(
-                'images/job2.jpg',
+                'images/job2.png',
                 fit: BoxFit.fitWidth,
               ),
             ),
