@@ -66,6 +66,14 @@ class _homescreenState extends State<homescreen> {
                 ),
               ),
             ),
+            Container(
+                margin: EdgeInsets.only(left: 10, right: 10, bottom: 20),
+                child: RaisedButton(
+                    onPressed: () {
+                      var box = Hive.box('userBox').clear();
+                      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => loginscreen()));
+                    },
+                    child: Text('LOG OUT')))
           ],
         ),
       ),
